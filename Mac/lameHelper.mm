@@ -71,9 +71,6 @@ void* lameHelper::encode(char* pcm_in, char* mp3_out, settings_t settings, CALLB
             hg->pcm = pcm_in;
             hg->settings = settings;
             
-            delete hg;
-            hg = NULL;
-            
             this->encode_s((void*)hg);
         });
 	}
