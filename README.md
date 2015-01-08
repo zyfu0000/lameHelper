@@ -9,3 +9,6 @@ http://www.codeproject.com/Articles/656543/The-LAME-wrapper-An-audio-converter
 
 ## Mac
 Modified based on Windows version
+
+Compile lame script on mac:
+https://gist.github.com/zyfu0000/32bc814567f7797ecbd2
